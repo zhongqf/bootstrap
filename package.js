@@ -1,8 +1,8 @@
 Package.describe({
-  summary: 'Accounts Templates styled for Twitter Bootstrap.',
+  summary: 'Accounts Templates styled for Limitless Template. Based on Twitter Bootstrap.',
   version: '1.13.1',
-  name: 'useraccounts:bootstrap',
-  git: 'https://github.com/meteor-useraccounts/bootstrap.git',
+  name: 'useraccounts:limitless',
+  git: 'https://github.com/zhongqf/meteor-useraccounts-limitless.git',
 });
 
 Package.on_use(function(api, where) {
@@ -69,7 +69,7 @@ Package.on_use(function(api, where) {
 
 Package.on_test(function(api) {
   api.use([
-    'useraccounts:bootstrap',
+    'useraccounts:limitless',
     'useraccounts:core@1.13.1',
   ]);
 
